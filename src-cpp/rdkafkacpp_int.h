@@ -426,7 +426,6 @@ class ConfImpl : public Conf {
 
       value.assign(value.c_str());
       return Conf::CONF_OK;
-
   }
 
   Conf::ConfResult get(DeliveryReportCb *&dr_cb) const {
